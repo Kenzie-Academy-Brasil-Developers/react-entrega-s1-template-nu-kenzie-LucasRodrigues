@@ -1,0 +1,27 @@
+.total-box {
+    width: 100%;
+}
+
+.total-box-value {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.total-box-value > span {
+    font-size: 16px;
+    font-weight: 700;
+    color:  #212529;
+}
+
+.total-box-value > p {
+    font-size: 16px;
+    font-weight: 700;
+    color:  #FD377E;
+}
+
+.total-box-info {
+    font-size: 12px;
+    font-weight: 400;
+    color: #343A40;
+}

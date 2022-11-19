@@ -1,0 +1,45 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 15px;
+}
+
+form > span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #868E96;
+}
+
+form > p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #212529;
+}
+
+.value-type-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    width: 95%;
+    border-radius: 8px;
+    padding: 12px;
+    border:2px solid #F8F9FA;
+    outline-style: none;
+}
+.value-box {
+    width: 35%;
+    font-size: 12px;
+    font-weight: 400;
+    color: #212529;
+}
+
+.type-box {
+    width: 60%;
+    font-size: 12px;
+    font-weight: 400;
+    color: #212529;
+}

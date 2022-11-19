@@ -1,0 +1,14 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}

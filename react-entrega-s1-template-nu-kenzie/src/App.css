@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-primary {
+  background-color: #FD377E;
+  color: #FFFFFF;
+  border-radius: 8px;
+  border: 2px solid #FD377E;
+  padding: 14.5px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  background-color: #E34981;
+  border: 2px solid #E34981;
+  color: #F8F9FA;
+}
+
+.button-secondary {
+  background-color: #E9ECEF;
+  color: #343A40;
+  border-radius: 8px;
+  border: 2px solid #E9ECEF;
+  padding: 10.5px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button-secondary:hover {
+  background-color: #E34981;
+  color: #E9ECEF;
+
+}

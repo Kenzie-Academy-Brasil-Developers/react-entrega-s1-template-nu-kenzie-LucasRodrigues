@@ -1,0 +1,58 @@
+.home-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212529;
+    color: #FFFFFF;
+    width: 100%;
+    min-height: 100vh;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.nome-box > h3 {
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.home-box > p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.logo {
+    width: 20%;
+}   
+
+.svg {
+    width: 40%;
+}
+
+.button-primary {
+    background-color: #FD377E;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: 2px solid #FD377E;
+    padding: 14.5px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+
+    .home-box {
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin-top: 150px;
+        width: 70%;
+    }
+
+    .svg {
+        display: none;
+    }
+}

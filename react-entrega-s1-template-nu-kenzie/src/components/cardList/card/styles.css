@@ -1,0 +1,68 @@
+.card {
+    width: 100%;
+    height: 87px;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.type {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.type-entrada {
+    width: 4px;
+    height: 87px;
+    background-color: #03B898;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.type-saida {
+    width: 4px;
+    height: 87px;
+    background-color: #E9ECEF;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.value-remove {
+    display: flex;
+    align-items: center;
+    justify-self: flex-end;
+    margin-top: 25px;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #212529;
+}
+
+.card-type {
+    font-size: 12px;
+    font-weight: 400;
+    color: #343A40;
+}
+
+.card-value {
+    font-size: 12px;
+    font-weight: 400;
+    color: #212529;
+}
+
+.button-remove {
+    width: 22px;
+    height: 22px;
+    background: #E9ECEF;
+    border-radius: 2px;
+    border-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: #343A40;
+}

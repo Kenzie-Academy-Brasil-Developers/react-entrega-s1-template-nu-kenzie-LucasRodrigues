@@ -1,0 +1,22 @@
+.card-list-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-list-header > h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #212529;
+} 
+
+.card-list-header > div {
+    display: flex;
+    gap: 5px;
+}
+
+@media (max-width: 700px) {
+    .card-list-header {
+        flex-direction: column;
+    }
+}
