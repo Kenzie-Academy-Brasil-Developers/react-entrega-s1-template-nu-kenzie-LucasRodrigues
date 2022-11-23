@@ -21,6 +21,11 @@
     color: #343A40;
 }
 
+.noCard {
+    width: 100%;
+    margin-top: 36px;
+}
+
 @media (max-width: 700px) {
     .card-list {
         width: 100%;
@@ -38,5 +43,9 @@
 
     .card-list-header > div {
         gap: 2px;
+    }
+
+    .empty-list {
+        text-align: center;
     }
 }
