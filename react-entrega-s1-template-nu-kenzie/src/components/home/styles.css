@@ -44,15 +44,18 @@
 
     .home-box {
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
+        flex-direction: column;
     }
 
     .logo {
         margin-top: 150px;
         width: 70%;
     }
-
     .svg {
-        display: none;
+        width: 90%;
+    }
+    .svg > img {
+        width: 100%;
     }
 }

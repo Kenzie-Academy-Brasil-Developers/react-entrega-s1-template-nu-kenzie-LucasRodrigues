@@ -3,15 +3,12 @@ import { Total } from '../total'
 import './styles.css'
 import { Header } from '../header'
 import { useState } from 'react'
-import { CardList } from '../cardList'
+import { CardList } from '../card_list'
 
 
 export const Dashboard = ({setStart}) => {
     
-    const [listTransactions, setListTransactions] = useState([
-        { description: 'Salário recebido', type: 'entrada', value: 2500 },
-        { description: 'Conta de luz', type: 'saída', value: -150 }
-    ])
+    const [listTransactions, setListTransactions] = useState([])
 
     const [filtered, setFiltered] = useState('todos')
     

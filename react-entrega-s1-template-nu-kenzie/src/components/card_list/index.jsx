@@ -13,7 +13,8 @@ export const CardList = ({setFiltered, listFiltered, removeTransition}) => {
               <button className='button-secondary' onClick={() => setFiltered('saída')}>Despesas</button>
               </div>
               </div>
-              {
+              { listFiltered <= 0 ? <p className='empty-list'>Você ainda não possui nenhum lançamento</p> :
+
               listFiltered.map((transition, i) => 
               <Card key={i} transition={transition} removeTransition={removeTransition} />
                 )

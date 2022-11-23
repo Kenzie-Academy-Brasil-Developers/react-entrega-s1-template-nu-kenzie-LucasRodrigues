@@ -19,6 +19,8 @@ export const Form = ({setListTransactions}) => {
             }
             if (newTransition.type === 'saída' && newTransition.value > 0) {
                 newTransition.value = (newTransition.value*-1)
+            } else if (newTransition.type === 'entrada' && newTransition.value < 0) {
+                newTransition.value = (newTransition.value*-1)
             }
             setListTransactions((oldTransitions) => [...oldTransitions, newTransition])
             setDescription('')
