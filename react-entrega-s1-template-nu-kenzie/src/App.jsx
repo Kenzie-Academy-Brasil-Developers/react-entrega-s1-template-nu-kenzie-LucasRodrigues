@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import { Dashboard } from './components/dashboard'
-import { Home } from './components/home'
+import { Dashboard } from './components/Dashboard'
+import { Home } from './components/Home'
 
 export const App = () => {
   const [start, setStart] = useState(true)

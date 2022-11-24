@@ -1,7 +1,7 @@
-import { ButtonPrimary } from '../button'
+import { ButtonPrimary } from '../Button'
 import { useState } from 'react'
 import './styles.css'
-import { Select } from '../select'
+import { Select } from '../Select'
 
 export const Form = ({setListTransactions}) => {
     const [description, setDescription] = useState('')

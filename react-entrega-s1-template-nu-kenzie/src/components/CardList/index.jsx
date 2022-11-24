@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles.css'
-import { Card } from './card' 
+import  { Card }  from './Card' 
 
 export const CardList = ({setFiltered, listFiltered, removeTransition}) => {
   return (

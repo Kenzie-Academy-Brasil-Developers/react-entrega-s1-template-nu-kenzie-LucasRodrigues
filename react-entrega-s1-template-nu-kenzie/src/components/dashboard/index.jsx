@@ -1,7 +1,7 @@
-import { Form } from '../inputs'
-import { Total } from '../total'
+import { Form } from '../Inputs'
+import { Total } from '../Total'
 import './styles.css'
-import { Header } from '../header'
+import { Header } from '../Header'
 import { useState } from 'react'
 import { CardList } from '../CardList'
 
