@@ -3,7 +3,7 @@ import { Total } from '../total'
 import './styles.css'
 import { Header } from '../header'
 import { useState } from 'react'
-import { CardList } from '../card_list'
+import { CardList } from '../CardList'
 
 
 export const Dashboard = ({setStart}) => {
